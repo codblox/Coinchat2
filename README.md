@@ -1,0 +1,4 @@
+HorseRacingBot
+==============
+
+CoinChat.org Bot
