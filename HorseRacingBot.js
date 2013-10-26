@@ -506,12 +506,12 @@ function tip(user, room, amount, message)
 
 function loadData(notify)
 {
-	fs.readFile("./AlgebraBot.dat", 'utf8', function(err, data){
+	fs.readFile("./HorseRacingBot.dat", 'utf8', function(err, data){
 	if(err) throw err;
 		json = JSON.parse(data);
 		userData = json["userData"];
 		profit = json["profit"];
-		console.log("AlgebraBot.dat loaded!");
+		console.log("HorseRacingBot.dat loaded!");
 		if(notify == true){
 			outputBuffer.push({room: CC_ROOM, message: "HorseRacingData.dat loaded!", color: color});
 		}
@@ -521,11 +521,11 @@ function loadData(notify)
 function saveData(notify)
 {
 	json = JSON.stringify({userData: userData, profit: profit});
-	fs.writeFile("./AlgebraBot.dat", json, function(){
+	fs.writeFile("./HorseRacingBot.dat", json, function(){
 		console.log("Horse racing bot data saved!");
 		if(notify == true){
-			outputBuffer.push({room: CC_ROOM, message: "AlgebraBot.dat saved!", color: color});
-			outputBuffer.push({room: CC_ROOM, message: "/topic BOT IS OFFLINE, DO NOT TIP!!!!!", color: color});
+			outputBuffer.push({room: CC_ROOM, message: "AHorseRacingBot.dat saved!", color: color});
+			//outputBuffer.push({room: CC_ROOM, message: "/topic BOT IS OFFLINE, DO NOT TIP!!!!!", color: color});
 		}
 	});
 }
