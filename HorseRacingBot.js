@@ -11,14 +11,14 @@ it simply means that some parts may not have been modified, thus creating the ap
 file was not copied from it, it was copied to it.
 */
 /***************Constants***************/
-const CC_USERNAME = "Robobot"; //self-explanatory
-const CC_PASSWORD = ""; //self-explanatory
-const CC_ROOM = "horseracing"; //room that the bot will operate in
+const CC_USERNAME = "robobot"; //self-explanatory
+const CC_PASSWORD = "qwertyuiop"; //self-explanatory
+const CC_ROOM = "robobot"; //room that the bot will operate in
 
 const jockeyPrice = 1; //how much the user must pay (in mBTC) to become a jockey for the round
 const maxJockeys = 8;
 
-const allowedUsers = ["AHuman", "MrRoboman4321", "virtualmining"]; //people who can run admin commands
+const allowedUsers = ["TheGr33k"]; //people who can run admin commands
 
 const jockeyMult = 2; //how much to multiply jockey 
 const betMult = 1.5; //how much to multiply bets by
