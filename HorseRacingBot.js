@@ -12,7 +12,7 @@ file was not copied from it, it was copied to it.
 */
 /***************Constants***************/
 const CC_USERNAME = "robobot"; //self-explanatory
-const CC_PASSWORD = ""; //self-explanatory
+const CC_PASSWORD = "qwertyuiop"; //self-explanatory
 const CC_ROOM = "robobot"; //room that the bot will operate in
 
 const jockeyPrice = 1; //how much the user must pay (in mBTC) to become a jockey for the round
